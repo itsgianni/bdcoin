@@ -11,40 +11,48 @@
 
 <body>
 
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="HOme.html">Bulldog Coin</a>
+      <a class="nav-link" href="My wallet.html"> My Wallet <span class="sr-only"></span></a> 
+            <div style="display: flex; justify-content: space-around">
+    <a class="nav-link" href="What is bulldogcoing.html">What is bulldog coin? <span class="sr-only"></span></a>
+    <a class="nav-link" href="#"> FAQ <span class="sr-only"></span></a> 
+    <a class="nav-link" href="getstartedPage.html"> Get started now <span class="sr-only"></span></a> 
+    <a class="nav-link" href="sign in page.html"> Sign in <span class="sr-only"></span></a> 
+</nav>
+
   <div data-include="nav"></div>
+  <center>
 <h1>Make a transaction</h1>
 
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+<!--forum-->
+<div class="transactionForum">
+  <form action="">
+  <fieldset>   
+      <legend> <b>Select with whom you are sending currency:</b></legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Ardeshir"><br>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-  </div>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" placeholder="Minae"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" placeholder="donotshaloop@gmail.com"><br>
+
+      <label for="amount">Amount:</label><br>
+      <input type="text" id="amount" name="amount" placeholder="25"><br>
+
+      <label for="reason">Reason</label><br>
+      <input type="text" id="reason" name="reason" placeholder="they gave me a pencil"><br><br>
+
+      <input type="submit" id="submit" name="submit" value="submit">
+      
+    <br><br>
+</fieldset> 
 </div>
-
-    
+  </form>
+<br><br>
+<a class="btn btn-primary" href="myWallet2.html" role="button">Back</a>
+</center>
 </body>
 </html>
